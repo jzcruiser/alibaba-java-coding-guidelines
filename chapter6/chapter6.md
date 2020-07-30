@@ -44,15 +44,13 @@
 
 1.  【强制】定义 `GAV` 遵从以下规则：
 
-   1） `GroupID` 格式：`com.{公司/BU }.业务线 [.子业务线]`，最多 4 级。 
+   1） GroupID 格式：com.{公司/BU }.业务线 [.子业务线]，最多 4 级。
 
-   > 说明：`{公司/BU} `例如：`alibaba/taobao/tmall/aliexpress` 等 `BU` 一级；子业务线可选。 
+   > 说明：{公司/BU} 例如：alibaba/taobao/tmall/aliexpress 等 BU 一级；子业务线可选。
 
-   正例：`com.taobao.jstorm` 或 `com.alibaba.dubbo.register`
+   2） ArtifactID 格式：产品线名-模块名。语义不重复不遗漏，先到中央仓库去查证一下。
 
-   2） `ArtifactID` 格式：产品线名-模块名。语义不重复不遗漏，先到中央仓库去查证一下。 
-
-   正例：`dubbo-client / fastjson-api / jstorm-tool`
+   正例：dubbo-client / fastjson-api / jstorm-tool
 
    3） Version：详细规定参考下方。
 
